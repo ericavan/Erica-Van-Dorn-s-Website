@@ -10,6 +10,68 @@
 
     <link rel="stylesheet" type="text/css" href="assets/styles/my-style.css">
 
+    <style>
+    body {
+        margin: 0;
+        padding: 15px;
+      }
+
+    .header {
+        background-color: #fcf4f0;
+        color: white;
+        text-align: center;
+        padding: 15px;
+       }
+    h1 {
+        text-align: center;
+        color: rgb(156, 125, 100);
+      }
+      
+      h2 {
+        text-align: left;
+        color: rgb(150, 139, 129);
+      }
+      
+      p {
+        text-align: left;
+        color: rgb(53, 29, 7);
+      }
+      
+      div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 280px;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .footer {
+        background-color: rgb(253, 233, 216);
+        color: white;
+        padding: 15px;
+      }
+
+
+      </style>
+      
 
       <!--<style>
         body {background-color: rgb(247, 223, 216);}
@@ -19,41 +81,129 @@
         border: 2px solid powderblue;
         }
       </style>-->
-</head>
+<!--</head>
 <nav>
     <a href="/html/">Home</a> |
     <a href="/css/">About Me</a> |
     <a href="/css/">Case Studies</a>
-</nav>
+</nav>-->
+
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">EVD Consultants</a>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+  
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     <hr>
     <section>
         <!-- Could use this for logo?
             <p class="lead">Erica's Consulting Business.</p> 
         -->
-    <h1>Erica's Consulting Business</h1>
-    <p>Usable, simple, & attractive websites.</p>
+    <div class="header">
+        <h1>EVD Consultants</h1>
+    </div>
+    <br><br><br><br>
 
-    <hr>
+    <h2>Services</h2>
+    <p>EVD Consultants provides usable, simple, & attractive branding and websites.</p>
+
+    <a data-flickr-embed="true" 
+    href="https://www.flickr.com/photos/192792125@N07/51125133232/in/dateposted-public/" 
+    title="website-builder">
+    <img src="https://live.staticflickr.com/65535/51125133232_797cf7825c_h.jpg" width="900" height="450" alt="website-builder" class="center"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 
 
     <dl>
-        <dt>Coffee</dt>
-        <dd>- black hot drink</dd>
-        <dt>Milk</dt>
-        <dd>- white cold drink</dd>
+        <dt>Branding</dt>
+        <dd>- For new organizational or web branding, EVD consultants will work with you to create a north star brand and messaging strategy — we can help you build yours from scratch, do a complete overhaul of your existing brand, or a quick refresh. </dd>
+        <dt>Website Design</dt>
+        <dd>- Your website and digital strategy are cornerstones of your work. Web design, UX, digital and content strategies are all becoming critical for highest conversions and impact.</dd>
+        <dt>Website Implementation</dt>
+        <dd>- For Website Implementation, EVD Consultants will help build you a website to meet your organizational and customer goals. We will include essentials like QA testing, fixes and cross browser check, and launch day planning.</dd>
+        <dt>Website Maintenance</dt>
+        <dd>- Post launch can be just as important as the launch itself. Once live for your customers, we'll adjust and tweak as new needs arise.</dd>
     </dl>
-    </section>
-    
-    <hr>
 
-    <footer>
+    
+    <br><br><br><br>
+    
+    <h2>Case Studies</h2>
+    <div class="clearfix">
+    <div class="gallery">
+        <a target="_blank" href="https://hudexchange.info">
+          <img src="https://live.staticflickr.com/65535/51125445098_600c3b06d3_k.jpg" alt="HUD Exchange" width="600" height="400">
+        
+        </a>
+        <div class="desc">HUD Exchange is an online platform for providing program information, guidance, services, and tools to HUD's community partners, including state and local governments, nonprofit organizations, Continuums of Care (CoCs), Public Housing Authorities (PHAs), tribes, and partners of these organizations.</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="https://fatherhood.gov">
+          <img src="https://live.staticflickr.com/65535/51125299939_047c0febb0_k.jpg" alt="Fatherhood.Gov" width="600" height="400">
+        </a>
+        <div class="desc">The National Responsible Fatherhood Clearinghouse is an Office of Family Assistance (OFA) funded national resource for fathers, practitioners, programs/Federal grantees, states, and the public at-large who are serving or interested in supporting strong fathers and families.</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="https://www.cancercommons.org">
+          <img src="https://live.staticflickr.com/65535/51126376285_85edf89c9b_k.jpg" alt="Cancer Commons" width="600" height="400">
+        </a>
+        <div class="desc">Cancer Commons is a network of patients, physicians, and scientists dedicated to helping people identify and access their—or their loved one’s—best-possible, personalized treatment plan. We draw on the most up-to-date research, insights from leading cancer experts, and outcomes... </div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="https://endalznow.org">
+          <img src="https://live.staticflickr.com/65535/51125285104_4cd3a3660f_k.jpg" alt="EndAlzNow.org" width="600" height="400">
+        </a>
+        <div class="desc">Banner Alzheimer's Institute (BAI) created and leads the Alzheimer's Prevention Registry in collaboration with partnering organizations as part of its mission to end Alzheimer's disease without losing another generation. The Phoenix-based nonprofit organization is part of Banner Health...</div>
+      </div>
+    </div>
+    
+   
+    </section>
+    <br>
+    <br>
+    <br>
+    
+    <div class="footer">
+        <br>
+        
         <p>Author: Erica Van Dorn</p>
         <p><a href="mailto:erica.vandorn@gmail.com">erica.vandorn@gmail.com</a></p>
         <a href="default.asp">
             <img src="https://media-exp1.licdn.com/dms/image/C4D03AQES8dGJhiUvoA/profile-displayphoto-shrink_400_400/0/1615757726862?e=1623888000&v=beta&t=RlB_-aiuuc0QNsFroSwYDQtLG-PeZs7bAC3MnPn5bQE" alt="Follow me on Linkedin" style="width:42px;height:42px;">
         </a>
-    </footer>
+      </div>
+
+
 </body>
+
+<!--
+    Image Sources include:
+    https://blog.travelpayouts.com/en/best-website-builders/
+
+-->
 </html>
